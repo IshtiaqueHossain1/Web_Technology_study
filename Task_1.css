@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+
+.form-wrapper {
+    width: 600px;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+}
+
+.required-note {
+    font-size: 12px;
+}
+
+.asterisk {
+    color: red;
+}
+
+.steps-nav {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.step {
+    display: inline;
+    margin-right: 15px;
+    font-size: 13px;
+}
+
+.step.active {
+    color: red;
+    font-weight: bold;
+}
+
+.form-section {
+    margin-bottom: 15px;
+}
+
+.section-title {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 160px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 220px;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 60px;
+}
+
+button,
+input[type="submit"],
+input[type="reset"] {
+    padding: 6px 12px;
+    margin-right: 5px;
+    cursor: pointer;
+}
